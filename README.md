@@ -1,32 +1,10 @@
-# SolidStart
+# Sia's SUD stack
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+## Core
+[Solid](https://start.solidjs.com) Start base  
+[UnoCSS](https://unocss.dev) UI with [Onu](https://github.com/onu-ui/onu-ui) presets  
+[Drizzle](https://orm.drizzle.team/) ORM with Postgres
 
-## Creating a project
-
-```bash
-# create a new project in the current directory
-npm init solid@latest
-
-# create a new project in my-app
-npm init solid@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Solid apps are built with _presets_, which optimise your project for deployment to different environments.
-
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different preset, add it to the `devDependencies` in `package.json` and specify in your `app.config.js`.
-
-## This project was created with the [Solid CLI](https://solid-cli.netlify.app)
+## Extras
+[Oxlint](https://oxc.rs/docs/guide/usage/linter.html), [Prettier](https://prettier.io), and [Editorconfig](https://editorconfig.org/) pre-configured for consistency and convenience  
+[Solid Devtools](https://github.com/thetarnav/solid-devtools) for that DX
