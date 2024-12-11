@@ -5,7 +5,7 @@ import { presetOnu } from "@onu-ui/preset"
 export default defineConfig({
 	presets: [
 		presetOnu({
-			/* options */
+			preflights: false,
 		}),
 	],
 })
