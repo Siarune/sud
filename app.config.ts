@@ -1,6 +1,7 @@
 import { defineConfig } from "@solidjs/start/config";
 import UnoCSS from "unocss/vite";
 import devtools from "solid-devtools/vite";
+import oxlintPlugin from "vite-plugin-oxlint";
 
 export default defineConfig({
 	vite: {
@@ -9,6 +10,7 @@ export default defineConfig({
 				autoname: true,
 			}),
 			UnoCSS(),
+      oxlintPlugin()
 		],
 	},
 });
