@@ -20,12 +20,16 @@ importers:
       solid-js:
         specifier: ^1.9.2
         version: 1.9.3
-      unocss:
-        specifier: ^0.59.2
-        version: 0.59.4(postcss@8.4.49)(rollup@4.28.1)(vite@5.4.11(@types/node@22.10.1)(terser@5.37.0))
       vinxi:
         specifier: ^0.4.3
         version: 0.4.3(@types/node@22.10.1)(ioredis@5.4.1)(terser@5.37.0)(typescript@5.7.2)
+    devDependencies:
+      '@onu-ui/preset':
+        specifier: ^1.1.5
+        version: 1.1.5
+      unocss:
+        specifier: ^0.59.4
+        version: 0.59.4(postcss@8.4.49)(rollup@4.28.1)(vite@5.4.11(@types/node@22.10.1)(terser@5.37.0))
 
 packages:
 
@@ -640,6 +644,18 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
+  '@magic-color/core@2.0.0':
+    resolution: {integrity: sha512-5oNAcAhaOSdSSZOo2xikPsxnAFpt+n/bqegN8dM07b/iqgBeFcuHfGogE2DZEBq0dTVF0jM4jp/3KhSaxpqK2Q==}
+
+  '@magic-color/shared@2.0.0':
+    resolution: {integrity: sha512-+RaecwOewQ+7xIHPohYcIa/Fd3fT9U01FhyywJX8KP8dzN0gQcXj7ec2ZdyvmDEQs1SgRSooApyxT7hq5zwBsQ==}
+
+  '@magic-color/theme@2.0.0':
+    resolution: {integrity: sha512-3XuMmyM7A4pI8CRhzVykK9Zoqd9KSEj7Kl16LdwXyYaw3V2XM0VLmJe3sRVgk8TqV+zCTQ5l2gLveDF4LdxBYQ==}
+
+  '@magic-color/transformer@2.0.0':
+    resolution: {integrity: sha512-Vm9KpmEZCe+95+PYlmEDltBDFq2SHQ2d0vcyYlE3mAMppzFXNFof7hQaF7S41poRQMLG0kEB1x+dul+jZElekg==}
+
   '@mapbox/node-pre-gyp@2.0.0-rc.0':
     resolution: {integrity: sha512-nhSMNprz3WmeRvd8iUs5JqkKr0Ncx46JtPxM3AhXes84XpSJfmIwKeWXRpsr53S7kqPkQfPhzrMFUxSNb23qSA==}
     engines: {node: '>=18'}
@@ -668,6 +684,9 @@ packages:
   '@nodelib/fs.walk@1.2.8':
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
+
+  '@onu-ui/preset@1.1.5':
+    resolution: {integrity: sha512-wA90x8q5wErSh0UcjbSdfAecdjRDGZzN696o8vshKsTXrV2VlWW+Rm05sXrzSyG5ItyrT+STar9G9mgVUaqW+g==}
 
   '@parcel/watcher-android-arm64@2.5.0':
     resolution: {integrity: sha512-qlX4eS28bUcQCdribHkg/herLe+0A9RyYC+mm2PXpncit8z5b3nSqGVzMNR3CmtAOgRutiZ02eIJJgP/b1iEFQ==}
@@ -1009,8 +1028,14 @@ packages:
   '@unocss/core@0.59.4':
     resolution: {integrity: sha512-bBZ1sgcAtezQVZ1BST9IS3jqcsTLyqKNjiIf7FTnX3DHpfpYuMDFzSOtmkZDzBleOLO/CtcRWjT0HwTSQAmV0A==}
 
+  '@unocss/core@0.64.1':
+    resolution: {integrity: sha512-D1ULd70a24/k6kGyHCIijbrrIn9UjFUEBg2R4xKX2/ViQb1k2MIgOs4VS20MkJX6kbZXqqm/zAFHzDhsQGIhBA==}
+
   '@unocss/extractor-arbitrary-variants@0.59.4':
     resolution: {integrity: sha512-RDe4FgMGJQ+tp9GLvhPHni7Cc2O0lHBRMElVlN8LoXJAdODMICdbrEPGJlEfrc+7x/QgVFoR895KpYJh3hIgGA==}
+
+  '@unocss/extractor-arbitrary-variants@0.64.1':
+    resolution: {integrity: sha512-tKtaeZYzSCaH1ASE7Uj45rPX4ApQHYE8eZFfaL3N4ZY0LYrTJPBnaLSRfLRwGD6KLHjoL3+sorywJiS/VVBcFQ==}
 
   '@unocss/inspector@0.59.4':
     resolution: {integrity: sha512-QczJFNDiggmekkJyNcbcZIUVwlhvxz7ZwjnSf0w7K4znxfjKkZ1hNUbqLviM1HumkTKOdT27VISW7saN/ysO4w==}
@@ -1029,6 +1054,9 @@ packages:
 
   '@unocss/preset-mini@0.59.4':
     resolution: {integrity: sha512-ZLywGrXi1OCr4My5vX2rLUb5Xgx6ufR9WTQOvpQJGBdIV/jnZn/pyE5avCs476SnOq2K172lnd8mFmTK7/zArA==}
+
+  '@unocss/preset-mini@0.64.1':
+    resolution: {integrity: sha512-tl+ciN0elB9eETEVZQrNaMy4NpbLdWDVW7KlmpRZi4Eomf/Ntz+Wctp5V0aBvszo8arEaDiOwsgMxITvx9Ll6Q==}
 
   '@unocss/preset-tagify@0.59.4':
     resolution: {integrity: sha512-vWMdTUoghOSmTbdmZtERssffmdUdOuhh4vUdl0R8Kv6KxB0PkvEFCu2FItn97nRJdSPlZSFxxDkaOIg9w+STNQ==}
@@ -1050,6 +1078,10 @@ packages:
 
   '@unocss/rule-utils@0.59.4':
     resolution: {integrity: sha512-1qoLJlBWAkS4D4sg73990S1MT7E8E5md/YhopKjTQuEC9SyeVmEg+5pR/Xd8xhPKMqbcuBPl/DS8b6l/GQO56A==}
+    engines: {node: '>=14'}
+
+  '@unocss/rule-utils@0.64.1':
+    resolution: {integrity: sha512-h+Du0lezKHmdsEsGQGAtGrwrTrU+Av4eij46UzpzuNWFq0mAouBu8m/lgBI1AcY9B0Jg3EJalkOgA06tAKS8jg==}
     engines: {node: '>=14'}
 
   '@unocss/scope@0.59.4':
@@ -1905,6 +1937,9 @@ packages:
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
+
+  magic-color@2.0.0:
+    resolution: {integrity: sha512-mRjScUYd0gfMGwFdAWSJ9HCHoKpe0iNAGN3s+hM4Ql2JI/7ZgCwA5UAEi0yMDkUwMBzogAORlzveQnzV/1riwg==}
 
   magic-string@0.30.15:
     resolution: {integrity: sha512-zXeaYRgZ6ldS1RJJUrMrYgNJ4fdwnyI6tVqoiIhyCyv5IVTK9BU8Ic2l253GGETQHxI4HNUwhJ3fjDhKqEoaAw==}
@@ -3224,6 +3259,21 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
+  '@magic-color/core@2.0.0':
+    dependencies:
+      '@magic-color/shared': 2.0.0
+      '@magic-color/transformer': 2.0.0
+
+  '@magic-color/shared@2.0.0': {}
+
+  '@magic-color/theme@2.0.0':
+    dependencies:
+      '@magic-color/core': 2.0.0
+
+  '@magic-color/transformer@2.0.0':
+    dependencies:
+      '@magic-color/shared': 2.0.0
+
   '@mapbox/node-pre-gyp@2.0.0-rc.0':
     dependencies:
       consola: 3.2.3
@@ -3259,6 +3309,11 @@ snapshots:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
+
+  '@onu-ui/preset@1.1.5':
+    dependencies:
+      '@unocss/preset-mini': 0.64.1
+      magic-color: 2.0.0
 
   '@parcel/watcher-android-arm64@2.5.0':
     optional: true
@@ -3584,9 +3639,15 @@ snapshots:
 
   '@unocss/core@0.59.4': {}
 
+  '@unocss/core@0.64.1': {}
+
   '@unocss/extractor-arbitrary-variants@0.59.4':
     dependencies:
       '@unocss/core': 0.59.4
+
+  '@unocss/extractor-arbitrary-variants@0.64.1':
+    dependencies:
+      '@unocss/core': 0.64.1
 
   '@unocss/inspector@0.59.4':
     dependencies:
@@ -3623,6 +3684,12 @@ snapshots:
       '@unocss/extractor-arbitrary-variants': 0.59.4
       '@unocss/rule-utils': 0.59.4
 
+  '@unocss/preset-mini@0.64.1':
+    dependencies:
+      '@unocss/core': 0.64.1
+      '@unocss/extractor-arbitrary-variants': 0.64.1
+      '@unocss/rule-utils': 0.64.1
+
   '@unocss/preset-tagify@0.59.4':
     dependencies:
       '@unocss/core': 0.59.4
@@ -3655,6 +3722,11 @@ snapshots:
   '@unocss/rule-utils@0.59.4':
     dependencies:
       '@unocss/core': 0.59.4
+      magic-string: 0.30.15
+
+  '@unocss/rule-utils@0.64.1':
+    dependencies:
+      '@unocss/core': 0.64.1
       magic-string: 0.30.15
 
   '@unocss/scope@0.59.4': {}
@@ -4585,6 +4657,11 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
+
+  magic-color@2.0.0:
+    dependencies:
+      '@magic-color/core': 2.0.0
+      '@magic-color/theme': 2.0.0
 
   magic-string@0.30.15:
     dependencies:
