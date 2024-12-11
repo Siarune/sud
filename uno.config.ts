@@ -1,6 +1,6 @@
 // uno.config.ts
-import { defineConfig } from "unocss";
-import { presetOnu } from "@onu-ui/preset";
+import { defineConfig } from "unocss"
+import { presetOnu } from "@onu-ui/preset"
 
 export default defineConfig({
 	presets: [
@@ -8,4 +8,4 @@ export default defineConfig({
 			/* options */
 		}),
 	],
-});
+})
