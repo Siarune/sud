@@ -17,7 +17,7 @@
 		"@unocss/reset": "^0.59.2",
 		"drizzle-orm": "^0.38.0",
 		"pg": "^8.13.1",
-		"solid-js": "^1.9.2",
+		"solid-js": "^1.9.4",
 		"vinxi": "^0.4.3",
 		"vite-plugin-oxlint": "^1.1.0"
 	},
